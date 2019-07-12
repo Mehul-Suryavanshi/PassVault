@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#604CB3FA"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".View">
+
+
+    <Button
+        android:id="@+id/view_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:drawableRight="@drawable/ic_expand"
+        android:background="#604CB3FA"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="View a Password"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/view_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="DESCRIPTION : "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/view_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="USERNAME : " />
+
+
+    <TextView
+        android:id="@+id/view_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="PASSWORD : " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/view_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="10dp"
+            android:alpha="0.5"
+            android:background="#FFFFFF"
+            android:text="Clear"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/view_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="10dp"
+            android:alpha="0.5"
+            android:background="#FFFFFF"
+            android:text="Exit"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

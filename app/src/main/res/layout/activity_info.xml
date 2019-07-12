@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        tools:context=".Info">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custombutton1"
+            android:drawableLeft="@drawable/ic_add"
+            android:padding="10dp"
+            android:text="Add new Password"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custombutton1"
+            android:drawableLeft="@drawable/ic_update"
+            android:padding="10dp"
+            android:text="Update Password"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custombutton1"
+            android:drawableLeft="@drawable/ic_view"
+            android:padding="10dp"
+            android:text="View Password"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custombutton1"
+            android:drawableLeft="@drawable/ic_delete"
+            android:padding="10dp"
+            android:text="Delete Password"
+            android:textSize="20sp" />
+    </LinearLayout>
